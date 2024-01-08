@@ -879,7 +879,7 @@ const App = () => {
         </span>
       </div>
       <b className="absolute top-[6699px] left-[204px] text-13xl inline-block text-black w-[248px] h-[35px]">{`<Technologies>`}</b>
-      <img
+      {/* <img
         className="absolute h-[1.03%] w-[4.76%] top-[97.59%] right-[84.99%] bottom-[1.39%] left-[10.25%] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
         src={vector4}
@@ -898,12 +898,12 @@ const App = () => {
         className="absolute h-[1.03%] w-[4.76%] top-[97.59%] right-[71.63%] bottom-[1.39%] left-[23.61%] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
         src={vector7}
-      />
-      <img
+      /> */}
+      {/* <img
         className="absolute h-[0.91%] w-[5.29%] top-[97.64%] right-[64.42%] bottom-[1.44%] left-[30.29%] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
         src={vector8}
-      />
+      /> */}
       <b className="absolute top-[6774px] left-[54px] text-[14px] inline-block text-cornflowerblue w-[377px] h-[33px]">
         Profit Begins When Innovation Starts
       </b>
