@@ -2,9 +2,15 @@
 import emailjs from "emailjs-com";
 import { useCallback, useState } from "react";
 import Swal from "sweetalert2";
+import vector4 from "./images/Vector4.png";
+import vector5 from "./images/Vector5.png";
+import vector6 from "./images/Vector6.png";
+import vector7 from "./images/Vector7.png";
+import vector8 from "./images/Vector8.png";
 import analyze from "./images/analyze@2x.png";
 import appLogoInspiration from "./images/app-logo-inspiraton-67@2x.png";
 import b2x from "./images/b@2x.png";
+import contactBg from "./images/background-with-swirls-and-shapes@2x.png";
 import codeFail from "./images/code-file@2x.png";
 import dataProvider from "./images/data-provider@2x.png";
 import discoLight from "./images/disco-lights-background@2x.png";
@@ -36,12 +42,9 @@ import test from "./images/test@2x.png";
 import vector2x from "./images/vector@2x.png";
 import vision from "./images/vision@2x.png";
 import websiteBug from "./images/website-bug@2x.png";
-// import vector4 from "./images/vector4.png";
-// import vector5 from "./images/vector5.png";
-// import vector6 from "./images/vector6.png";
-// import vector7 from "./images/vector7.png";
-// import vector8 from "./images/vector8.png";
-import contactBg from "./images/background-with-swirls-and-shapes@2x.png";
+
+
+
 const App = () => {
   const [loading, setLoading] = useState(false);
   const onCTextClick = useCallback(() => {
@@ -879,7 +882,7 @@ const App = () => {
         </span>
       </div>
       <b className="absolute top-[6699px] left-[204px] text-13xl inline-block text-black w-[248px] h-[35px]">{`<Technologies>`}</b>
-      {/* <img
+      <img
         className="absolute h-[1.03%] w-[4.76%] top-[97.59%] right-[84.99%] bottom-[1.39%] left-[10.25%] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
         src={vector4}
@@ -898,12 +901,12 @@ const App = () => {
         className="absolute h-[1.03%] w-[4.76%] top-[97.59%] right-[71.63%] bottom-[1.39%] left-[23.61%] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
         src={vector7}
-      /> */}
-      {/* <img
+      />
+      <img
         className="absolute h-[0.91%] w-[5.29%] top-[97.64%] right-[64.42%] bottom-[1.44%] left-[30.29%] max-w-full overflow-hidden max-h-full object-cover"
         alt=""
         src={vector8}
-      /> */}
+      />
       <b className="absolute top-[6774px] left-[54px] text-[14px] inline-block text-cornflowerblue w-[377px] h-[33px]">
         Profit Begins When Innovation Starts
       </b>
